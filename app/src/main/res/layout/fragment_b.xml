@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".FragmentB">
+
+
+    <ImageView
+        android:id="@+id/tourist"
+        android:layout_width="272dp"
+        android:layout_height="167dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        tools:srcCompat="@color/design_default_color_background" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="358dp"
+        android:layout_height="433dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:text="Here will be the details such as most popular tourist destinations, currency and exchange rate, and transportation."
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+</LinearLayout>
